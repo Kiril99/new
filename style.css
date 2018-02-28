@@ -1,0 +1,175 @@
+body{
+	font-family:'Nanum Gothic', sans-serif;
+	max-width: 2000px;
+	margin: 0;
+}
+header{
+	margin: 0 auto;
+	background-color: #ff5c5c;
+	border-top:13px solid #333;
+	border-bottom: 13px solid #333;
+	height: 80vh;
+	font-weight: bold;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+.logoName{
+	margin-top: 20px;
+}
+.logoName h1{
+	margin-bottom: 0;
+	color: white;
+	font-size: 30px;
+}
+.logoName p{
+	margin-top: 0;
+	color: white;
+}
+.ul{
+	margin-top: 20px;
+}
+.ul ul{
+	display: flex;
+}
+.ul li{
+	margin: 20px;
+	list-style: none;
+}
+.ul, li, a{
+	color:white;
+	text-decoration: none;
+}
+.black{
+	position:relative;
+	top: 80px;
+	left: 230px;
+	width: 70%;
+}
+.black img{
+	width:100%;
+}
+.par{
+	text-align: center;
+	margin-top: 200px;
+}
+.par h1{
+	color:#3b3b3b;
+}
+.bottom1{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+.bottom2{
+	width: 18%;
+	border:6px solid #e6e2d7;
+	background-color: #e65f60;
+	border-radius: 30px;
+}
+.bottom2 h3{
+	text-align: center;
+	color:white;
+}
+.blockAll{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+
+}
+.black2{
+	margin:20px;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+
+	
+}
+.kub{
+	background-color:black;
+	border:solid;
+	width:100%;
+	height: 155px;
+	border:6px solid #e6e2d7;
+}
+.black2 p {
+	margin: 0;
+	line-height: 1.6;
+}
+.read{
+	margin:0;
+	display: flex;
+	justify-content: flex-end;
+}
+.read a{
+	color:red;
+}
+footer{
+	margin-top:60px;
+	background-image: url(img/background.jpg ); 
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	
+
+}
+footer p{
+	font-size: 14px;
+}
+footer h3{
+	color: white;
+}
+.bl1{
+	width:21%;
+	margin:30px 28px 0px 28px;
+
+}
+.img img{
+	float: left;
+}
+.img p{
+	font-size: 14px;
+	line-height: 1.6;
+	color: white;
+	margin-left: 80px;
+}
+span{
+	color: #a1a1a1;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.bl2{
+	margin-top: 30px;
+	width: 21%
+}
+.bl2 a{
+	text-decoration: none;
+	color: #e05555;
+	width: 30%;
+}
+.bl2 p{
+	margin:0;
+	color: white;
+}
+.bl3{
+	margin-top: 20px;
+	width: 21%;
+}
+.bl3 p{
+	color: white;
+	line-height: 1.6;
+}
+.bl3 h1{
+	font-weight: bold;
+	color: white;
+	margin-bottom: 0;
+
+}
+.p{
+	margin-top: 0;
+}
